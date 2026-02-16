@@ -1,0 +1,149 @@
+/* this Products.css*/
+.products-container {
+    padding: 20px 40px;
+    background: #eef2ff;
+    min-height: 100vh;
+}
+
+.page-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    position: relative;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(44, 62, 80, 0.15);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.image-wrapper {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background: #e8ecf8;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.product-info {
+    padding: 12px;
+    text-align: left;
+}
+
+.product-info h3 {
+    margin: 0 0 5px;
+    color: #34495e;
+}
+
+.product-info p {
+    margin: 4px 0;
+    color: #7f8c8d;
+}
+
+/*Eco badge */
+.eco-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 12px;
+    color: white;
+    z-index: 2;
+}
+
+.eco-green {
+    background-color: #1abc9c;
+}
+
+.eco-yellow {
+    background-color: #f39c12;
+    color: #ffffff;
+}
+
+.eco-red {
+    background-color: #c0392b;
+}
+
+/*Status Badge */
+.status {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    z-index: 2;
+}
+
+.PENDING {
+    background: #9b59b6;
+}
+
+.APPROVED {
+    background: #16a085;
+}
+
+/*Action Buttons */
+.actions {
+    display: flex;
+    gap: 8px;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.btn {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.add {
+    background: #ff6b6b;
+}
+
+.update {
+    background: #6c5ce7;
+}
+
+.delete {
+    background: #2d3436;
+}
+
+.filter-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.filter-bar input,
+.filter-bar select {
+    padding: 6px;
+    background: #ffffff;
+    border: 1px solid #dcdde1;
+    color: #2c3e50;
+}

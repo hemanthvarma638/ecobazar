@@ -1,0 +1,80 @@
+/* this is main.css*/
+.qty-controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.qty-controls button {
+    padding: 5px 12px;
+    font-size: 16px;
+}
+
+.remove-btn {
+    background: #e74c3c;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f6f8;
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+button {
+    background: #3498db;
+    border: none;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+
+nav {
+    background:#FFB347;
+    padding: 12px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    font-weight: 500;
+}
+
+nav button {
+    background: #2c3e50;
+}
+
+.form-container {
+    width: 350px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
